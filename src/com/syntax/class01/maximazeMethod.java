@@ -17,5 +17,7 @@ public class maximazeMethod {
         driver.manage().window().maximize();
         driver.manage().window().fullscreen();
 
+        driver.quit();
+
     }
 }
