@@ -7,7 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class radioBtns {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
+        // System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://syntaxprojects.com/basic-radiobutton-demo.php");
         //getting the radio btn webElement

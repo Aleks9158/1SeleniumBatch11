@@ -28,11 +28,11 @@ public class driverCommands {
             //!not
             if (!linkText.isEmpty()) {
                 System.out.println(linkText);
- //     print all the links also along with the text
-  // use the method .getAttribute to have the value of a particular attribute in the tag
-         //       <a href"https://link.com">linktext<a>
-           String linkAddress = link.getAttribute("href");
-   // print the attribute "href" value
+                //     print all the links also along with the text
+                // use the method .getAttribute to have the value of a particular attribute in the tag
+                //       <a href"https://link.com">linktext<a>
+                String linkAddress = link.getAttribute("href");
+                // print the attribute "href" value
                 System.out.println(linkAddress);
 
                 System.out.println("----------------------");
@@ -40,7 +40,9 @@ public class driverCommands {
 
             }
 
+
         }
+        driver.quit();
     }
 }
 

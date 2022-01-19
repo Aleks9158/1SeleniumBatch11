@@ -8,8 +8,9 @@ import static java.lang.Thread.*;
 public class navigateToMethod {
 
     public static void main (String[]args) throws InterruptedException {
-        System.setProperty( "webdriver.chrome.driver ","Driver/chromedriver.exe");
-        WebDriver driver=new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
         driver.get("http://www.facebook.com");
         Thread.sleep(2000);
         driver.navigate().to("http://www.amazon.com");
