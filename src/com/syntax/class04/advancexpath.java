@@ -8,9 +8,9 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 public class advancexpath {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver","Driver/chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver","Driver/chromedriver.exe");
        // System.setProperty("webdriver.chrome.driver","C:\\Users\\Юлия\\IdeaProjects\\Selenium\\1SeleniumBatch11\\Driver\\chromedriver.exe");
-       // System.setProperty("webdriver.chrome.driver","C:\\chromedriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\chromedriver\\chromedriver.exe");
        // System.setProperty("webdriver.chrome.driver"," ");
         WebDriver driver=new ChromeDriver();
         driver.get("http://hrm.syntaxtechs.net/humanresources/symfony/web/index.php/auth/login");
