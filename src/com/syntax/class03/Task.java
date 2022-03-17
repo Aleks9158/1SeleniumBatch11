@@ -22,5 +22,6 @@ public class Task {
         driver.findElement(By.xpath("//a[@class='list-group-item' and text()='Simple Form Demo']")).click();
         driver.findElement(By.xpath("//input[@id='user-message']")).sendKeys("batchee11");
         driver.findElement(By.xpath("//button[text()=\"Show Message\"]")).click();
+       // driver.close();
 }
 }

@@ -19,6 +19,7 @@ public class navigateToMethod {
         Thread.sleep(2000);
         driver.navigate().forward();
         Thread.sleep(2000);
+       // driver.quit();
         driver.close();
     }
 
