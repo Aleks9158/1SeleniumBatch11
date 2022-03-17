@@ -51,6 +51,6 @@ public class checkBoxes {
             }
 
         }
-
+      //  driver.quit();
     }
 }

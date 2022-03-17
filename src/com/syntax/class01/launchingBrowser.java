@@ -6,8 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class launchingBrowser {
     public static void main (String[]args) throws InterruptedException {
 
-       // System.setProperty("webdriver.chrome.driver ","Driver/chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver ","C:\\chromedriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver ","Driver/chromedriver.exe");
+        // System.setProperty("webdriver.chrome.driver ","C:\\chromedriver\\chromedriver.exe");
         //creating a object of Chrome driver
         WebDriver driver=new ChromeDriver();
         //calling a get method to get to a particular website
